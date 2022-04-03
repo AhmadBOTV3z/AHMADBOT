@@ -1,11 +1,11 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-	conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot ahmad')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *VIA PULSA* :      *Rp 5.000*
+	conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
+╠➥ *VIA PULSA* :      *Rp 10.000*
 ╠➥ *VIA DANA* :      *Rp 10.000*
 ╠➥ *VIA GOPAY* : *Rp 10.000*
 ╠➥ *PREMIUM* : *Rp 5.000*
-╠➥*SEMUA PERMANENT*
+╠➥ *SEMUA PERMANENT*
 ╠
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ GOPAY/DANA/PULSA
