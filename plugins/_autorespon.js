@@ -29,15 +29,17 @@ handler.all = async function (m, { isBlocked }) {
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *VIA PULSA* :      *Rp 5.000*
+╠➥ *VIA PULSA* :      *Rp 10.000*
 ╠➥ *VIA DANA* : *Rp 10.000*
 ╠➥ *VIA GOPAY* :   *Rp 10.000*
-╠➥ *SEMUA PERMANENT* *PREMIUM:Rp10.000*
-║
+╠➥ *PREMIUM:Rp 5.000*
+║➥ *SEMUA PERMANENT KNTL*
+╠
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
-╠➥ TOPUP/PIN
+╠➥ GOPAY/DANA/PULSA
 ║- 6281250521455 (DANA)
 ║- 6281250521455 (GOPAY)
+╠  6281250521455 PULSA
 ╠═〘 AHMADBOT 〙 ═`.trim(), '©AhmadBOT', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
 }
 
